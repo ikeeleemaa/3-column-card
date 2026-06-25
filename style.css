@@ -16,8 +16,7 @@ body{
    flex-wrap: wrap;
    align-self:center;
   
-   
-
+  
 
 }
 
@@ -55,14 +54,20 @@ p{
     max-width: 205px;
     margin-bottom: 20px;
     margin-top:20px; 
-    
 
+}
+
+.hover-text{
+    transition: color 0.3s ease;
+}
+.hover-text:hover{
+    color: #0b0a0f;
 }
 .logo{
     height: 100%;
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 40px;
 }
 .logo > button{
     width: 48px;
@@ -78,8 +83,23 @@ p{
 .logo > button img{
     width: 34px;
     height: 34px;
-   
     
+}
+
+.card-1 .logo > button{
+    background-color: #16100a4b;
+    padding-left: 40px;
+
+}
+
+.card-2 .logo > button{
+    background-color: #16100a4b;
+    padding-left: 40px;
+}
+
+.card-3 .logo > button{
+    background-color: #16100a50;
+    padding-left: 40px;
 }
 h1{
     color: white;
@@ -123,3 +143,4 @@ h1{
     cursor: pointer;
 
 }
+
