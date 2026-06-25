@@ -4,10 +4,12 @@
     padding: 0%;
 }
 
+/* Page background color */
 body{
     background-color: white;
 }
 
+/* Main container holding all cards */
 .container{
    width: 100%;
    margin: auto;
@@ -15,11 +17,10 @@ body{
    justify-content: center;
    flex-wrap: wrap;
    align-self:center;
-  
-  
 
 }
 
+/* First card styling */
 .card-1{
     background-color:#E28525 ;
     min-height: 500px;
@@ -28,16 +29,14 @@ body{
     border-radius: 8px 0 0 8px;
 
 }
-
+/* Second card styling */
 .card-2{
     background-color:#016972 ;
     min-height: 500px;
     min-width: 300px;
     margin-top: 80px;
-
-  
-
 }
+/* Third card styling */
 .card-3{
     background-color: #00403F;
     min-height: 500px;
@@ -46,7 +45,7 @@ body{
     border-radius: 0 8px 8px 0;
 
 }
-
+/* Paragraph text styling */
 p{
     color: white;
     font-size: 20px;
@@ -56,19 +55,21 @@ p{
     margin-top:20px; 
 
 }
-
+/* Hover effect for text elements */
 .hover-text{
     transition: color 0.3s ease;
 }
 .hover-text:hover{
     color: #0b0a0f;
 }
+/* Logo container inside each card */
 .logo{
     height: 100%;
     display: flex;
     flex-direction: column;
     margin: 40px;
 }
+/* Circular button inside logo section */
 .logo > button{
     width: 48px;
     height: 48px;
@@ -80,34 +81,36 @@ p{
     justify-content: center;
     
 }
+/* Image inside the button */
 .logo > button img{
     width: 34px;
     height: 34px;
     
 }
-
+/* Button background styling for card 1 */
 .card-1 .logo > button{
     background-color: #16100a4b;
     padding-left: 40px;
 
 }
-
+/* Button background styling for card 1 */
 .card-2 .logo > button{
     background-color: #16100a4b;
     padding-left: 40px;
 }
-
+/* Button background styling for card 3 */
 .card-3 .logo > button{
     background-color: #16100a50;
     padding-left: 40px;
 }
+/* Main heading style */
 h1{
     color: white;
     font-size: 35px;
     margin: 30px 0 20px 0;
     font-family: sans-serif;
 }
-
+/* Button 1 styling */
 #btn-1{
     position: absolute;
     bottom: 80px;
@@ -119,7 +122,11 @@ h1{
     cursor: pointer;
 
 }
-
+/* Button 1 hover effect */
+#btn-1:hover{
+    background: #0b0a0f71;
+}
+/* Button 2 styling */
 #btn-2{
     position: absolute;
     bottom: 80px;
@@ -131,7 +138,11 @@ h1{
     cursor: pointer;
 
 }
-
+/* Button 2 hover effect */
+#btn-2:hover{
+    background: #0b0a0f71;
+}
+/* Button 3 styling */
 #btn-3{
     position: absolute;
     bottom: 80px;
@@ -142,5 +153,10 @@ h1{
     color:#00403F;
     cursor: pointer;
 
+}
+/* Button 3 hover effect */
+#btn-3:hover{
+    background: #29292b00;
+    color: white;
 }
 
