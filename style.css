@@ -16,7 +16,6 @@ body{
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
-   align-self:center;
 
 }
 
@@ -53,6 +52,7 @@ p{
     max-width: 205px;
     margin-bottom: 20px;
     margin-top:20px; 
+   
 
 }
 /* Hover effect for text elements */
@@ -89,7 +89,7 @@ p{
 }
 /* Button background styling for card 1 */
 .card-1 .logo > button{
-    background-color: #16100a4b;
+    background-color: #16100a1e;
     padding-left: 40px;
 
 }
@@ -120,6 +120,7 @@ h1{
     border-radius: 20px;
     color: #E28525;
     cursor: pointer;
+    
 
 }
 /* Button 1 hover effect */
